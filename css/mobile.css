@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+    #banner{
+        height: 750px;
+        background-position: 48%;
+    }
+    #nav-bar nav a{
+        border: none;
+        text-align: left;
+    }
+    #nav-bar a:last-child{
+        border-right: none;
+    }
+    #nav-bar nav a span{
+        order: 2;
+    }
+    #nav-bar nav a img{
+        order: 1;
+    }
+
+    #footer ul li span{
+        display: none;
+    }
+}

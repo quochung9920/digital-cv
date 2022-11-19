@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0 !important;
+    line-height: 25px;
+}
+
+#banner {
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+}
+
+#nav-bar a {
+    border-left: 1px solid #dee2e6;
+}
+
+#nav-bar a:last-child {
+    border-right: 1px solid #dee2e6;
+}
+
+#target,
+#target0 {
+    background-color: rgb(245, 245, 245);
+}
+
+#personal-info,
+#personal-info0 {
+    background-color: rgb(240, 240, 240);
+}
+
+#personal-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#personal-info ul span {
+    font-weight: 500;
+}
+
+#personal-info ul li i {
+    margin-right: 10px;
+}
+
+#footer {
+    background-color: rgb(230, 230, 230);
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+ul li::marker {
+    color: rgb(24, 178, 238);
+    font-size: 1.5em;
+}
+
+.border-rounded-left-right {
+    border-radius: 2em !important;
+}
+
+.project-table tr td:first-child {
+    width: 26%;
+}
+
+#certificate {
+    background-color: rgb(240, 240, 240);
+}
+
+#project>div {
+    width: 90%;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+
+@media screen and (min-width: 992px) {
+    #project>div {
+        width: 80%;
+    }
+
+    #banner {
+        height: 570px;
+    }
+
+    #nav-bar nav {
+        width: 60%;
+    }
+
+    #navbar-avatar img {
+        width: 24px;
+        height: 24px;
+        transform: scale(5.5);
+    }
+
+    .certificate-image {
+        width: 35%;
+    }
+
+
+    .border-start-custom {
+        border-left: 1px solid #ffc107;
+    }
+
+    .col-lg-2-custom-padding {
+        padding-left: 20px;
+    }
+
+
+    .grid-col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    #banner{
+        height: 750px;
+    }
+    #nav-bar nav a span{
+        order: 2;
+    }
+    #nav-bar nav a img{
+        order: 1;
+    }
+    .border-start-custom{
+        border-left: 1px solid #ffc107;
+    }
+    .certificate{
+        padding: 0 20px;
+    }
+    #certificate h2{
+        padding-left: 20px;
+    }
+    
+    #job-info-1>div, #job-info-2>div{
+        margin-bottom: 20px;
+    }
+
+    
+}
