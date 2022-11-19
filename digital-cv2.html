@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB QUẢN LÝ THÚ CƯNG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/font.css">
+
+    <style>
+        body {
+            padding: 15px;
+        }
+
+        h2 {
+            color: #ff9900;
+        }
+
+        body>div {
+            box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+        }
+
+        .border-circle {
+            width: 40px;
+            height: 40px;
+        }
+
+        .border-dashed {
+            border-bottom: 1px dashed;
+        }
+
+        @media screen and (max-width: 992px) {
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 15px;
+            }
+        }
+
+
+        @media screen and (min-width: 992px) {
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr;
+                gap: 10px;
+                background-color: #2196F3;
+                padding: 15px;
+            }
+
+            body>div {
+                width: 80%;
+            }
+
+            .item5 {
+                grid-column: 3 / 4;
+                grid-row: 1/3;
+            }
+
+            .item2 {
+                grid-area: 2 / 1 / 3 / 2;
+            }
+
+            .border-goal-1 {
+                border-bottom: 1px solid;
+            }
+        }
+    </style>
+</head>
+
+<body class="d-flex justify-content-center">
+    <div class="grid-container">
+        <div class="item1 p-3 bg-light">
+            <h2 class="border-bottom border-secondary pb-2 m-0">Goals</h2>
+            <div class="row m-0">
+                <div
+                    class="col-lg-3 border-goal-1 border-secondary d-flex justify-content-center fs-2 pt-2 border-opacity-25">
+                    🏁
+                </div>
+                <div class="col-lg-9 border-bottom border-secondary pt-2 border-opacity-25">
+                    <div>
+                        <h5>Thiết kế database</h5>
+                        <p>Thiết kế database cho website quản lý thú cưng</p>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-3 border-goal-1 border-secondary d-flex justify-content-center fs-2 pt-2 border-opacity-25">
+                    🏁
+                </div>
+                <div class="col-lg-9 border-bottom border-secondary pt-2 border-opacity-25">
+                    <div>
+                        <h5>Lập trình giao diện</h5>
+                        <p>Lập trình giao diện cho website quản lý thú cưng</p>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-3 border-goal-1 border-secondary d-flex justify-content-center fs-2 pt-2 border-opacity-25">
+                    🏁
+                </div>
+                <div class="col-lg-9 border-bottom border-secondary pt-2 border-opacity-25">
+                    <div>
+                        <h5>Lập trình logic và kết nối database</h5>
+                        <p>Lập trình logic và kết nối database cho website quản lý thú cưng</p>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-3 border-goal-1 border-secondary d-flex justify-content-center fs-2 pt-2 border-opacity-25">
+                    🏁
+                </div>
+                <div class="col-lg-9 border-bottom border-secondary pt-2 border-opacity-25">
+                    <div>
+                        <h5>Hoàn thiện website</h5>
+                        <p>Hoàn thiện website quản lý thú cưng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item2">
+            <div class="p-3 h-100 bg-light">
+                <h2 class="border-bottom border-secondary pb-2 m-0">Scopes</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5 class="text-uppercase fw-bolder pt-2">In</h5>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="text-uppercase fw-bolder pt-2">Out</h5>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item3">
+            <div class="p-3 border h-100 bg-light">
+                <h2 class="border-bottom border-secondary pb-2 m-0">Team</h2>
+                <div class="row m-0">
+                    <div class="col-lg-3 d-flex justify-content-center align-items-center"><i
+                            class="icon-user fs-3 p-2"></i></div>
+                    <div class="col-lg-9 py-2 px-0">
+                        <div>
+                            <h5 class="m-0">Member 01</h5>
+                            <p class="m-0">Name: Nguyễn Quốc Hưng</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center align-items-center"><i
+                            class="icon-user fs-3 p-2"></i></div>
+                    <div class="col-lg-9 py-2 px-0">
+                        <div>
+                            <h5 class="m-0">Member 02</h5>
+                            <p class="m-0">Name: Đỗ Trọng Đức</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center align-items-center"><i
+                            class="icon-user fs-3 p-2"></i></div>
+                    <div class="col-lg-9 py-2 px-0">
+                        <div>
+                            <h5 class="m-0">Member 03</h5>
+                            <p class="m-0">Name: Nguyễn Hồng Phát</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center align-items-center"><i
+                            class="icon-user fs-3 p-2"></i></div>
+                    <div class="col-lg-9 py-2 px-0">
+                        <div>
+                            <h5 class="m-0">Member 04</h5>
+                            <p class="m-0">Name: Ngyễn Đức Trung</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center align-items-center"><i
+                            class="icon-user fs-3 p-2"></i></div>
+                    <div class="col-lg-9 py-2 px-0">
+                        <div>
+                            <h5 class="m-0">Member 04</h5>
+                            <p class="m-0">Name: Ngyễn Duy Tân</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item4">
+            <div class="p-3 border h-100 bg-light">
+                <h2 class="border-bottom border-secondary pb-2 m-0">Primary</h2>
+                <div class="row m-0">
+                    <div class="col-lg-3 d-flex justify-content-center p-3"><i class="icon-star-1 fs-3"></i></div>
+                    <div class="col-lg-9 py-2 px-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+                        sint?</div>
+                    <div class="col-lg-3 d-flex justify-content-center p-3"><i class="icon-star-1 fs-3"></i></div>
+                    <div class="col-lg-9 py-2 px-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+                        sint?</div>
+                </div>
+            </div>
+        </div>
+        <div class="item5">
+            <div class="p-3 border h-100 bg-light">
+                <h2 class="border-bottom border-secondary pb-2 m-0">Timeline</h2>
+                <div class="row m-0">
+                    <div class="col-lg-3 d-flex align-items-center pt-2">
+                        <div
+                            class="border-circle border-dark bg-secondary border rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <p class="fs-5 m-0 text-light">01</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 py-2 px-0 border-dashed border-primary pt-2">
+                        <div>
+                            <h5 class="m-0">Khởi động dự án</h5>
+                            <p class="m-0">Tạo project trên github</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center pt-2">
+                        <div
+                            class="border-circle border-dark bg-secondary border rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <p class="fs-5 m-0 text-light">02</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 py-2 px-0 border-dashed border-primary pt-2">
+                        <div>
+                            <h5 class="m-0">Thiết kế database</h5>
+                            <p class="m-0">Tạo database trên phpmyadmin</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center pt-2">
+                        <div
+                            class="border-circle border-dark bg-secondary border rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <p class="fs-5 m-0 text-light">03</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 py-2 px-0 border-dashed border-primary pt-2">
+                        <div>
+                            <h5 class="m-0">Thiết kế giao diện</h5>
+                            <p class="m-0">Thiết kế giao diện trên figma</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center pt-2">
+                        <div
+                            class="border-circle border-dark bg-secondary border rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <p class="fs-5 m-0 text-light">04</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 py-2 px-0 border-dashed border-primary pt-2">
+                        <div>
+                            <h5 class="m-0">Kết nối database</h5>
+                            <p class="m-0">Kết nối database với php</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center pt-2">
+                        <div
+                            class="border-circle border-dark bg-secondary border rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <p class="fs-5 m-0 text-light">05</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 py-2 px-0 border-dashed border-primary pt-2">
+                        <div>
+                            <h5 class="m-0">Hoàn thiện giao diện</h5>
+                            <p class="m-0">Hoàn thiện giao diện trên figma</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 d-flex align-items-center pt-2">
+                        <div
+                            class="border-circle border-dark bg-secondary border rounded-circle p-1 d-flex justify-content-center align-items-center">
+                            <p class="fs-5 m-0 text-light">06</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 py-2 px-0 border-dashed border-primary pt-2">
+                        <div>
+                            <h5 class="m-0">Lập trình các chức năng</h5>
+                            <p class="m-0">Lập trình các chức năng trên php</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
