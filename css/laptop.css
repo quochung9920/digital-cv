@@ -117,20 +117,7 @@ ul li::marker {
         width: 35%;
     }
 
-
     .border-start-custom {
         border-left: 1px solid #ffc107;
     }
-
-    .col-lg-2-custom-padding {
-        padding-left: 20px;
-    }
-
-
-    .grid-col-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-    }
-
 }
