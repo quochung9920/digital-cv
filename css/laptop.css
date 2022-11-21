@@ -21,13 +21,11 @@ p {
     border-right: 1px solid #dee2e6;
 }
 
-#target,
-#target0 {
+#target {
     background-color: rgb(245, 245, 245);
 }
 
-#personal-info,
-#personal-info0 {
+#personal-info {
     background-color: rgb(240, 240, 240);
 }
 
@@ -95,16 +93,15 @@ ul li::marker {
 }
 
 @media screen and (min-width: 992px) {
+    #nav-bar > nav{
+        width: 75%;
+    }
     #project>div {
         width: 80%;
     }
 
     #banner {
         height: 570px;
-    }
-
-    #nav-bar nav {
-        width: 60%;
     }
 
     #navbar-avatar img {
@@ -119,5 +116,8 @@ ul li::marker {
 
     .border-start-custom {
         border-left: 1px solid #ffc107;
+    }
+    #job-info-1{
+        margin-bottom: 16px;
     }
 }

@@ -30,12 +30,12 @@ function viewMoreInfo() {
             jobInfoContent.classList.toggle("d-none");
             if (buttonViewMore.innerHTML === `<span class="arrow-down me-2"></span>View more`) {
                 buttonViewMore.innerHTML = `<span class="arrow-up me-2"></span>View less`;
-                if(screen.width > 992){
+                if(document.body.clientWidth > 992){
                     jobInfo[i].firstElementChild.classList.add("h-100");
                 }
             } else {
                 buttonViewMore.innerHTML = `<span class="arrow-down me-2"></span>View more`;
-                if(screen.width > 992){
+                if(document.body.clientWidth > 992){
                     jobInfo[i].firstElementChild.classList.remove("h-100");
                 }
             }
@@ -67,6 +67,7 @@ function hoverJobInfo() {
 window.onload = function () {
     viewMoreInfo();
     hoverJobInfo();
+    console.log(document.body.clientWidth);
 }
 
 

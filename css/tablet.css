@@ -1,6 +1,9 @@
-@media screen and (max-width: 992px) and (min-width: 576px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
     #banner{
         height: 750px;
+    }
+    #nav-bar > nav{
+        width: 80%;
     }
     #nav-bar nav a span{
         order: 2;
@@ -21,6 +24,14 @@
     #job-info-1>div, #job-info-2>div{
         margin-bottom: 20px;
     }
+    #job-info-1, #job-info-2{
+        width: 50%;
+        margin: 0 auto;
+        height: fit-content;
+    }
 
+    #job-info > div >div {
+        display: flex;
+    }
     
 }
